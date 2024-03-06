@@ -3,7 +3,7 @@ This is a random data generator for a machine learning project, with the goal of
 
 Additions and improvements are welcome!
 ## Example usage:
-```
+```python
 from shape_label_generation import triangle, square, circle, inside_of, left_of
 from PIL import Image, ImageDraw
 
@@ -13,3 +13,6 @@ draw_picture(image, label, image_size)
 print(label.linear_rep())
 image.show()
 ```
+
+Output:
+![circle left of a square inside of a triangle](example_images/example1.jpg)
