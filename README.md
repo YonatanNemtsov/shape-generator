@@ -16,4 +16,5 @@ image.show()
 ```
 
 Output:
+
 <img src="example_images/example1.jpg" alt="image" width="200"/>
