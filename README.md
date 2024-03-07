@@ -5,6 +5,7 @@ Additions and improvements are welcome!
 ## Example usage:
 ```python
 from shape_label_generation import triangle, square, circle, inside_of, left_of
+from shape_picture_generation import draw_picture
 from PIL import Image, ImageDraw
 
 image_size = (1000,1000)
